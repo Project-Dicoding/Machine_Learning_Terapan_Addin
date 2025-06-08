@@ -1,7 +1,5 @@
 # Laporan Proyek Machine Learning - Addin Hadi Rizal
 
-<img src="https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-PredictiveAnalytics/main/image/output6.png" width="500">
-
 ## Domain Proyek
 
 **Latar Belakang**
