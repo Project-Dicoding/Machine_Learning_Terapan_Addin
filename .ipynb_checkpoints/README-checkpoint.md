@@ -1,7 +1,5 @@
 # Laporan Proyek Machine Learning - Addin Hadi Rizal
 
-<img src="https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-PredictiveAnalytics/main/image/output6.png" width="500">
-
 ## Domain Proyek
 
 **Latar Belakang**
@@ -77,7 +75,7 @@ Dataset mempunyai beberapa fitur yang terdapat missing value.
 |longitude|float64|10
 
 Dataset mempunyai nilai outliers pada fitur-fitur numerical. Fitur price dan square_feet memiliki jumlah outliers paling banyak.
-![Boxplot Outliers](https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-PredictiveAnalytics/main/image/output3.png)
+![Boxplot Outliers](https://github.com/Project-Dicoding/Machine_Learning_Terapan_Addin/blob/main/image/output3.png?raw=true)
 
 ### Variabel-variabel pada dataset adalah sebagai berikut:
 - id = unique identifier of apartment
@@ -106,7 +104,7 @@ Dataset mempunyai nilai outliers pada fitur-fitur numerical. Fitur price dan squ
 **Exploratory Data Analysis (EDA)**:
 - Membuat korelasi heatmap untuk melihat nilai korelasi antar fitur numerik.
 
-    ![Korelasi heatmap](https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-PredictiveAnalytics/main/image/output4.png)
+    ![Korelasi heatmap](https://github.com/Project-Dicoding/Machine_Learning_Terapan_Addin/blob/main/image/output4.png?raw=true)
 
     1. Hubungan antara Luas Bangunan dan Fitur Lain:
         * Fitur square_feet (luas bangunan) memiliki hubungan yang cukup kuat dengan bathrooms dan bedrooms, yang menunjukkan bahwa luas bangunan adalah indikator penting dari ukuran dan fasilitas apartemen.
@@ -115,7 +113,7 @@ Dataset mempunyai nilai outliers pada fitur-fitur numerical. Fitur price dan squ
 
 - Membuat histogram untuk melihat persebaran data numerik.
 
-    ![Histogram](https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-PredictiveAnalytics/main/image/output5.png)
+    ![Histogram](https://github.com/Project-Dicoding/Machine_Learning_Terapan_Addin/blob/main/image/output5.png?raw=true)
 
     1. Bathrooms
         * Mayoritas memiliki 1 kamar mandi. Terdapat rumah yang memiliki 1.5 dan 2.5 kamar mandi
@@ -265,12 +263,12 @@ MSE memberikan penalti yang lebih besar untuk kesalahan yang lebih besar karena 
 - Random Forest: Model Random Forest menunjukkan performa yang lebih baik dibandingkan KNN dengan MSE yang lebih rendah yaitu 59.18405.
 - AdaBoost: Model AdaBoost juga menunjukkan performa yang kompetitif dengan nilai MSE 148.285221.
 
-![Train Test For Every Model](https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-PredictiveAnalytics/main/image/output.png)
+![Train Test For Every Model](https://github.com/Project-Dicoding/Machine_Learning_Terapan_Addin/blob/main/image/output.png?raw=true)
 
 **Model Terbaik** 
 
 Berdasarkan hasil evaluasi, model Random Forest dipilih sebagai model terbaik karena memiliki MSE terendah pada data uji. Berikut adalah grafik untuk nilai aktual vs nilai prediksi menggunakan model random forest.
-![Actual vs Predicted for model RF](https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-PredictiveAnalytics/main/image/output2.png)
+![Actual vs Predicted for model RF](https://github.com/Project-Dicoding/Machine_Learning_Terapan_Addin/blob/main/image/output2.png?raw=true)
 
 **Evaluasi Terhadap Business Understanding**
 - Menjawab Problem Statement: Model yang dibuat berhasil menjawab problem statement dengan memprediksi harga sewa apartemen berdasarkan fitur-fitur yang ada dan mengidentifikasi fitur-fitur yang paling berpengaruh.
